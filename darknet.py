@@ -153,4 +153,4 @@ class DetectionLayer(nn.Module):
 if __name__ == '__main__':
     blocks = parse_cfg('./cfg/yolov3.cfg')
     res = create_modules(blocks)
-    print(res)
+    print(res[1])
